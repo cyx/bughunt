@@ -1,0 +1,3 @@
+$ curl -I "http://localhost:3000/seattle-wa/pizza?g=Seattle%2C+WA" --cookie-jar cookies
+
+$ curl -I "http://localhost:3000/seattle-wa/pizza?g=Seattle%2C+WA" -b cookies
